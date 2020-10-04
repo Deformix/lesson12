@@ -1,0 +1,97 @@
+.footer {
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    color: #262626;
+   
+    max-width: 100%;
+    height: 856px;
+    padding: 100px 100px 10px;
+
+    &__title,
+    &__text {
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 90px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    &__text {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 1.47;
+        margin: 0 auto 45px;
+        width: 390px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__form {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    &__input,
+    &__message {
+        background-color: rgb(0, 196, 196);
+        border-left: 5px solid transparent;
+        border: none;
+        display: block;
+        font-family: inherit;
+        font-size: 15px;
+        font-weight: 300;
+        opacity: 0.502;
+        padding: 15px 15px;
+        width: 500px;
+    }
+
+    &__input:focus,
+    &__message:focus {
+        border-left: 5px solid #355b82;
+        color: #fff;
+        font-weight: 700;
+        opacity: 1;
+        outline: none;
+    }
+
+    &__input::placeholder,
+    &__message::placeholder {
+        color: #fff;
+    }
+
+    &__input {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    &__message {
+        height: 150px;
+        resize: none;
+    }
+
+    &__info {
+        padding-left: 90px;
+        width: 50%;
+    }
+
+    &__info-title {
+        font-size: 17px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    &__info-data {
+        display: block;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+}
